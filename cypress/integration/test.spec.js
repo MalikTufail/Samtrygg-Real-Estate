@@ -9,9 +9,11 @@ describe('Samtrygg ', () => {
         })
         
     });
+    let k = 0
     it('test 1', () => {
         cy.readFile('data.json').then(data => {
             route = data.data.user.publishedHomes.map(value => {
+                cy.log(k++, value.location.route)
                 return value.location.route
             })
         })
@@ -22,7 +24,7 @@ describe('Samtrygg ', () => {
                 data.SearchResult.filter(street => {
                     return street.StreetName === route[i]
                 }).forEach(matchValue => {
-                    expect(route[i]).to.eq(matchValue.StreetName)
+                    expect(matchValue.StreetName).to.eq(route[i])
                 })
             }
         })
