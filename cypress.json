@@ -1,0 +1,10 @@
+{
+    "baseUrl": "https://www.samtrygg.se",
+    "chromeWebSecurity": false,
+    "experimentalSessionAndOrigin": true,
+    "pageLoadTimeout": 2400000,
+    "failOnStatusCode": false,
+    "viewportHeight": 1000,
+    "viewportWidth": 1280,
+    "redirectionLimit": 2000
+}
