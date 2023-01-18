@@ -1,36 +1,185 @@
-const fs = require("fs");
+// const fs = require("fs");
 let route;
-describe('Samtrygg ', () => {
+let streets = []
+let rooms = []
+let square = []
+describe('street automate', () => {
     beforeEach(() => {
-        Cypress.on('uncaught:exception', (err, runnable) => {
+        cy.on('uncaught:exception', (err, runnable) => {
             // returning false here prevents Cypress from
             // failing the test
             return false
         })
-        
-    });
-    let k = 0
-    it('test 1', () => {
-        cy.readFile('data.json').then(data => {
-            route = data.data.user.publishedHomes.map(value => {
-                cy.log(k++, value.location.route)
-                return value.location.route
-            })
+        Cypress.on('uncaught:exception', (err, runnable) => {
+            if(err.message.includes('Aw, Snap!')){
+                return false
+            }
+            throw err
         })
     })
-    it('test2', () => {
+    it('test 1', () => {
         cy.readFile('SearchResult.json').then(data => {
-            for(let i = 0; i < route.length; i++){
-                data.SearchResult.filter(street => {
-                    return street.StreetName === route[i]
-                }).forEach(matchValue => {
-                    expect(matchValue.StreetName).to.eq(route[i])
+            for(let j = 0; j < data.SearchResult.length; j++) {
+                cy.readFile('data.json').then(data1 => {
+                    for(let i = 0; i < data1.data.user.publishedHomes.length; i++) {
+                        // cy.log(data1.data.user.publishedHomes[i].squareMeters, data1.data.user.publishedHomes[i].location.route)
+                        if(data.SearchResult[j].SquareMeters == data1.data.user.publishedHomes[i].squareMeters && data.SearchResult[j].StreetName == data1.data.user.publishedHomes[i].location.route && data.SearchResult[j].NoOfRooms == data1.data.user.publishedHomes[i].roomCount ){
+                            expect(data1.data.user.publishedHomes[i].squareMeters).to.equal(data.SearchResult[j].SquareMeters),
+                            expect(data1.data.user.publishedHomes[i].location.route).to.equal(data.SearchResult[j].StreetName),
+                            expect(data1.data.user.publishedHomes[i].roomCount).to.equal(data.SearchResult[j].NoOfRooms)
+                            cy.wait(3000)
+                            break
+                        } 
+                        // if(data1.data.user.publishedHomes[i].squareMeters != data.SearchResult[j].SquareMeters && data1.data.user.publishedHomes[i].location.route != data.SearchResult[j].StreetName && data1.data.user.publishedHomes[i].roomCount != data.SearchResult[j].NoOfRooms){
+                        // //     // cy.fail('Rental object is not found')
+                        // //     // expect(`${data.SearchResult[j].SquareMeters}`).to.not.contain(`${data1.data.user.publishedHomes[i].squareMeters}`)
+                        //     expect(data.SearchResult[j].StreetName).to.not.contain(data1.data.user.publishedHomes[i].location.route)
+                        // //     // expect(`${data.SearchResult[j].NoOfRooms}`).to.not.contain(`${data1.data.user.publishedHomes[i].roomCount}`)
+                    }
+                    cy.wait(1000)
                 })
             }
         })
     })
+    it('test 2', () => {
+        cy.readFile('SearchResult copy.json').then(data => {
+            for(let j = 0; j < data.SearchResult.length; j++) {
+                cy.readFile('data.json').then(data1 => {
+                    for(let i = 0; i < data1.data.user.publishedHomes.length; i++) {
+                        // cy.log(data1.data.user.publishedHomes[i].squareMeters, data1.data.user.publishedHomes[i].location.route)
+                        if(data.SearchResult[j].SquareMeters == data1.data.user.publishedHomes[i].squareMeters && data.SearchResult[j].StreetName == data1.data.user.publishedHomes[i].location.route && data.SearchResult[j].NoOfRooms == data1.data.user.publishedHomes[i].roomCount ){
+                            expect(data1.data.user.publishedHomes[i].squareMeters).to.equal(data.SearchResult[j].SquareMeters),
+                            expect(data1.data.user.publishedHomes[i].location.route).to.equal(data.SearchResult[j].StreetName),
+                            expect(data1.data.user.publishedHomes[i].roomCount).to.equal(data.SearchResult[j].NoOfRooms)
+                            cy.wait(3000)
+                            break
+                        } 
+                        // if(data1.data.user.publishedHomes[i].squareMeters != data.SearchResult[j].SquareMeters && data1.data.user.publishedHomes[i].location.route != data.SearchResult[j].StreetName && data1.data.user.publishedHomes[i].roomCount != data.SearchResult[j].NoOfRooms){
+                        // //     // cy.fail('Rental object is not found')
+                        // expect(`${data.SearchResult[j].SquareMeters}`).to.not.contain(`${data1.data.user.publishedHomes[i].squareMeters}`)
+                        // expect(data.SearchResult[j].StreetName).to.not.contain(data1.data.user.publishedHomes[i].location.route)
+                        // expect(`${data.SearchResult[j].NoOfRooms}`).to.not.contain(`${data1.data.user.publishedHomes[i].roomCount}`)
+                    }
+                    cy.wait(1000)
+                })
+            }
+            
+        })
+    })
+
+    it('test 3', () => {
+        cy.readFile('SearchResult copy 2.json').then(data => {
+            for(let j = 0; j < data.SearchResult.length; j++) {
+                cy.readFile('data.json').then(data1 => {
+                    for(let i = 0; i < data1.data.user.publishedHomes.length; i++) {
+                        // cy.log(data1.data.user.publishedHomes[i].squareMeters, data1.data.user.publishedHomes[i].location.route)
+                        if(data.SearchResult[j].SquareMeters == data1.data.user.publishedHomes[i].squareMeters && data.SearchResult[j].StreetName == data1.data.user.publishedHomes[i].location.route && data.SearchResult[j].NoOfRooms == data1.data.user.publishedHomes[i].roomCount ){
+                            expect(data1.data.user.publishedHomes[i].squareMeters).to.equal(data.SearchResult[j].SquareMeters),
+                            expect(data1.data.user.publishedHomes[i].location.route).to.equal(data.SearchResult[j].StreetName),
+                            expect(data1.data.user.publishedHomes[i].roomCount).to.equal(data.SearchResult[j].NoOfRooms)
+                            cy.wait(3000)
+                            break
+                        } 
+                        // if(data1.data.user.publishedHomes[i].squareMeters != data.SearchResult[j].SquareMeters && data1.data.user.publishedHomes[i].location.route != data.SearchResult[j].StreetName && data1.data.user.publishedHomes[i].roomCount != data.SearchResult[j].NoOfRooms){
+                        // //     // cy.fail('Rental object is not found')
+                        // expect(`${data.SearchResult[j].SquareMeters}`).to.not.contain(`${data1.data.user.publishedHomes[i].squareMeters}`)
+                        // expect(data.SearchResult[j].StreetName).to.not.contain(data1.data.user.publishedHomes[i].location.route)
+                        // expect(`${data.SearchResult[j].NoOfRooms}`).to.not.contain(`${data1.data.user.publishedHomes[i].roomCount}`)
+                    }
+                    cy.wait(1000)
+                })
+            }
+            
+        })
+    })
+
+    it('test 4', () => {
+        cy.readFile('SearchResult copy 3.json').then(data => {
+            for(let j = 0; j < data.SearchResult.length; j++) {
+                cy.readFile('data.json').then(data1 => {
+                    for(let i = 0; i < data1.data.user.publishedHomes.length; i++) {
+                        // cy.log(data1.data.user.publishedHomes[i].squareMeters, data1.data.user.publishedHomes[i].location.route)
+                        if(data.SearchResult[j].SquareMeters == data1.data.user.publishedHomes[i].squareMeters && data.SearchResult[j].StreetName == data1.data.user.publishedHomes[i].location.route && data.SearchResult[j].NoOfRooms == data1.data.user.publishedHomes[i].roomCount ){
+                            expect(data1.data.user.publishedHomes[i].squareMeters).to.equal(data.SearchResult[j].SquareMeters),
+                            expect(data1.data.user.publishedHomes[i].location.route).to.equal(data.SearchResult[j].StreetName),
+                            expect(data1.data.user.publishedHomes[i].roomCount).to.equal(data.SearchResult[j].NoOfRooms)
+                            cy.wait(3000)
+                            break
+                        } 
+                        // if(data1.data.user.publishedHomes[i].squareMeters != data.SearchResult[j].SquareMeters && data1.data.user.publishedHomes[i].location.route != data.SearchResult[j].StreetName && data1.data.user.publishedHomes[i].roomCount != data.SearchResult[j].NoOfRooms){
+                        // //     // cy.fail('Rental object is not found')
+                        // expect(`${data.SearchResult[j].SquareMeters}`).to.not.contain(`${data1.data.user.publishedHomes[i].squareMeters}`)
+                        // expect(data.SearchResult[j].StreetName).to.not.contain(data1.data.user.publishedHomes[i].location.route)
+                        // expect(`${data.SearchResult[j].NoOfRooms}`).to.not.contain(`${data1.data.user.publishedHomes[i].roomCount}`)
+                    }
+                    cy.wait(1000)
+                })
+            }
+            
+        })
+    })
 })
 
+
+// describe('Samtrygg ', () => {
+//     beforeEach(() => {
+//         Cypress.on('uncaught:exception', (err, runnable) => {
+//             // returning false here prevents Cypress from
+//             // failing the test
+//             return false
+//         })
+        
+//     });
+//     it('test 1', () => {
+//         cy.readFile('data.json').then(data => {
+//             route = data.data.user.publishedHomes.map(value => {
+//                 return [
+//                     {
+//                         address: value.location.route
+//                     }, 
+//                     {
+//                         blocketRooms: value.roomCount
+//                     }, 
+//                     {
+//                         blocketSquareMeter: value.squareMeters
+//                     }
+//                 ]
+//             })
+//         }) 
+//     })
+    
+//     it('test2', () => {
+//         cy.readFile('SearchResult.json').then(data => {
+//             for(let i = 0; i < route.length; i++){
+//                 // data.SearchResult.forEach(street => {
+//                 //     expect(street.StreetName).to.equal(route[i].address)
+//                 console.log(route[i][0])
+//                 // })
+//             // const filterValues =  data.SearchResult.filter(street => {
+//             //         return (
+//             //             {
+//             //                 samStreetAddress: street.StreetName === route[i]
+//             //             },
+//             //             {
+//             //                 samNoOfRooms: street.NoOfRooms === route[i]
+//             //             },
+//             //             {
+//             //                 samSquareMeter: street.SquareMeters === route[i]
+//             //             }
+//             //         )
+//             //     })
+//                 console.log(filterValues)
+//                 // .forEach(matchValue => {
+//                 //     expect(route[i]).to.eq(matchValue.StreetName)
+//                 //     expect(route[i]).to.eq(matchValue.NoOfRooms)
+//                 //     expect(route[i]).to.eq(matchValue.SquareMeters)
+//                 // })
+                
+//             }
+            
+//         })
+//     })
+// })
 
 // const propertyAddress = home.location.locality
             // const concatAddress = `${propertyName} ${propertyAddress}`

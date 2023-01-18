@@ -1,0 +1,1096 @@
+{
+    "data": {
+        "user": {
+            "uid": "mccdc3nm",
+            "professional": true,
+            "proPilot": false,
+            "landlord": true,
+            "tenant": false,
+            "createdAt": "2019-11-06T13:12:46Z",
+            "seenAt": "2023-01-03T10:30:11Z",
+            "occupations": [],
+            "landlordApplicationResponseRate": 1.0,
+            "currentAgreementType": null,
+            "movingReason": null,
+            "tenantAd": null,
+            "tenantProfileCompleteness": {
+                "completenessScore": 30,
+                "tenantProfileFields": {
+                    "bioLived": {
+                        "completed": false,
+                        "__typename": "TenantProfileField"
+                    },
+                    "bio": {
+                        "completed": true,
+                        "__typename": "TenantProfileField"
+                    },
+                    "firstName": {
+                        "completed": true,
+                        "__typename": "TenantProfileField"
+                    },
+                    "idNumberConfirmed": {
+                        "completed": true,
+                        "__typename": "TenantProfileField"
+                    },
+                    "occupations": {
+                        "completed": false,
+                        "__typename": "TenantProfileField"
+                    },
+                    "matchingProfile": {
+                        "completed": false,
+                        "__typename": "TenantProfileField"
+                    },
+                    "movingReason": {
+                        "completed": false,
+                        "__typename": "TenantProfileField"
+                    },
+                    "profilePicture": {
+                        "completed": true,
+                        "__typename": "TenantProfileField"
+                    },
+                    "referenceCheck": {
+                        "completed": false,
+                        "__typename": "TenantProfileField"
+                    },
+                    "bioPets": {
+                        "completed": false,
+                        "__typename": "TenantProfileField"
+                    },
+                    "bioTitle": {
+                        "completed": false,
+                        "__typename": "TenantProfileField"
+                    },
+                    "currentAgreementType": {
+                        "completed": false,
+                        "__typename": "TenantProfileField"
+                    },
+                    "__typename": "TenantProfileFields"
+                },
+                "__typename": "TenantProfileCompleteness"
+            },
+            "landlordApplicationResponseTimeHours": 0,
+            "certificate": null,
+            "profilePicture": {
+                "id": "2031687",
+                "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2effa56c42c0b449a72adf2c5d5aecc5e8d1e4ea256d0181695fdb11af16178b.jpg",
+                "__typename": "Upload"
+            },
+            "firstName": "Leo",
+            "companyName": "Samtrygg AB",
+            "bio": {
+                "title": null,
+                "intro": "Samtrygg är en trygg marknadsplats för andrahandsuthyrning. Sedan starten 2013 har vi haft tusentals nöjda hyresgäster och uthyrare över hela Sverige. Följ länken i annonsen för att boka en visning snabbt, tryggt och naturligtvis helt kostnadsfritt. \n\nSamtrygg is a safe marketplace for subleasing homes. Since the start in 2013, we have had thousands of satisfied tenants and landlords all over Sweden. Follow the link in the ad to book a viewing. ",
+                "lived": "",
+                "pets": "",
+                "__typename": "UserBio"
+            },
+            "referenceCheck": null,
+            "idNumberConfirmed": true,
+            "age": 27,
+            "showAge": true,
+            "publishedHomes": [
+                {
+                    "id": "502728",
+                    "firsthand": false,
+                    "rent": 33350,
+                    "tenantBaseFee": 1650,
+                    "title": null,
+                    "favoriteMarkedByUser": false,
+                    "landlord": {
+                        "uid": "mccdc3nm",
+                        "companyName": "Samtrygg AB",
+                        "premium": false,
+                        "professional": true,
+                        "profilePicture": {
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2effa56c42c0b449a72adf2c5d5aecc5e8d1e4ea256d0181695fdb11af16178b.jpg",
+                            "__typename": "Upload"
+                        },
+                        "proPilot": false,
+                        "__typename": "User"
+                    },
+                    "location": {
+                        "route": "Emmy Rappes Gata",
+                        "locality": "Stockholm",
+                        "__typename": "Location"
+                    },
+                    "roomCount": 3.0,
+                    "shared": false,
+                    "squareMeters": 72,
+                    "type": "apartment",
+                    "duration": {
+                        "createdAt": "2022-12-04T18:02:24Z",
+                        "endOptimal": null,
+                        "endUfn": true,
+                        "id": "605936",
+                        "startAsap": true,
+                        "startOptimal": null,
+                        "updatedAt": "2022-12-20T05:04:50Z",
+                        "__typename": "Duration"
+                    },
+                    "uploads": [
+                        {
+                            "id": "5609527",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/119808c1cc816e92513d81cfd9532b45dfdc4325b62f15bb9dd2981cb8d7b3fa.png",
+                            "type": "home_picture",
+                            "title": "b61c5a7424f0296764925c582e298f49.png",
+                            "metadata": {
+                                "primary": null,
+                                "order": null,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        }
+                    ],
+                    "numberOfHomes": 1,
+                    "minRent": null,
+                    "maxRent": null,
+                    "minRoomCount": null,
+                    "maxRoomCount": null,
+                    "minSquareMeters": null,
+                    "maxSquareMeters": null,
+                    "rentalType": "long_term",
+                    "tenantCount": 4,
+                    "bedCount": null,
+                    "bedroomCount": null,
+                    "__typename": "Home"
+                },
+                {
+                    "id": "499474",
+                    "firsthand": false,
+                    "rent": 6574,
+                    "tenantBaseFee": 325,
+                    "title": null,
+                    "favoriteMarkedByUser": false,
+                    "landlord": {
+                        "uid": "mccdc3nm",
+                        "companyName": "Samtrygg AB",
+                        "premium": false,
+                        "professional": true,
+                        "profilePicture": {
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2effa56c42c0b449a72adf2c5d5aecc5e8d1e4ea256d0181695fdb11af16178b.jpg",
+                            "__typename": "Upload"
+                        },
+                        "proPilot": false,
+                        "__typename": "User"
+                    },
+                    "location": {
+                        "route": "Erikslundsgatan",
+                        "locality": "Borås",
+                        "__typename": "Location"
+                    },
+                    "roomCount": 2.0,
+                    "shared": false,
+                    "squareMeters": 43,
+                    "type": "apartment",
+                    "duration": {
+                        "createdAt": "2022-11-29T11:25:43Z",
+                        "endOptimal": "2023-05-15T00:00:00Z",
+                        "endUfn": false,
+                        "id": "601334",
+                        "startAsap": true,
+                        "startOptimal": null,
+                        "updatedAt": "2022-11-29T11:25:43Z",
+                        "__typename": "Duration"
+                    },
+                    "uploads": [
+                        {
+                            "id": "5563337",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e4571af1d06e73c8052dc9d16a0bbb9313c33c3f8735a6d9c28813b13b6c328e.png",
+                            "type": "home_picture",
+                            "title": "beacad418fd9ec817fd337d891edafcc.png",
+                            "metadata": {
+                                "primary": null,
+                                "order": null,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        },
+                        {
+                            "id": "5563340",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/aeac93dd48dd1a731327c57165b6d460cb48bcd6b0ac9985ec05ecad5e3a194c.jpg",
+                            "type": "home_picture",
+                            "title": "5e73af0ca3cc44c84cb5ff18ba40442b.jpg",
+                            "metadata": {
+                                "primary": null,
+                                "order": null,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        },
+                        {
+                            "id": "5563342",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/70b9fd53505f2ee2c2e5efc073dc98e327ac390176459bddcf7bc9396c7fadd3.jpg",
+                            "type": "home_picture",
+                            "title": "a6f41f7c6efe72bc0d13e7a96b8d016c.jpg",
+                            "metadata": {
+                                "primary": null,
+                                "order": null,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        },
+                        {
+                            "id": "5563344",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/30abaa4488441efc6df2ef97fa4a88ef4d335bcd8f2d2a90ca8472089326daa8.jpg",
+                            "type": "home_picture",
+                            "title": "7c62c9578a43911b419231aba215dfb0.jpg",
+                            "metadata": {
+                                "primary": null,
+                                "order": null,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        },
+                        {
+                            "id": "5563346",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ecf7a9829fe476a307b2584542527b918b129eb7ced48113071bcdca280fef8a.jpg",
+                            "type": "home_picture",
+                            "title": "092e73c902143f839ea0d82d6339eabd.jpg",
+                            "metadata": {
+                                "primary": null,
+                                "order": null,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        },
+                        {
+                            "id": "5563348",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ef086611ff049373ccd4e9f86aee21589828918cfc94e6fe90f4ebabba9ba57d.jpg",
+                            "type": "home_picture",
+                            "title": "1fa5a3acb828e0319f7171a9f2c9eaf8.jpg",
+                            "metadata": {
+                                "primary": null,
+                                "order": null,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        }
+                    ],
+                    "numberOfHomes": 1,
+                    "minRent": null,
+                    "maxRent": null,
+                    "minRoomCount": null,
+                    "maxRoomCount": null,
+                    "minSquareMeters": null,
+                    "maxSquareMeters": null,
+                    "rentalType": "long_term",
+                    "tenantCount": 3,
+                    "bedCount": null,
+                    "bedroomCount": null,
+                    "__typename": "Home"
+                },
+                {
+                    "id": "474007",
+                    "firsthand": false,
+                    "rent": 8855,
+                    "tenantBaseFee": 438,
+                    "title": null,
+                    "favoriteMarkedByUser": false,
+                    "landlord": {
+                        "uid": "mccdc3nm",
+                        "companyName": "Samtrygg AB",
+                        "premium": false,
+                        "professional": true,
+                        "profilePicture": {
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2effa56c42c0b449a72adf2c5d5aecc5e8d1e4ea256d0181695fdb11af16178b.jpg",
+                            "__typename": "Upload"
+                        },
+                        "proPilot": false,
+                        "__typename": "User"
+                    },
+                    "location": {
+                        "route": "Rådmansgatan",
+                        "locality": "Örebro",
+                        "__typename": "Location"
+                    },
+                    "roomCount": 2.0,
+                    "shared": false,
+                    "squareMeters": 70,
+                    "type": "apartment",
+                    "duration": {
+                        "createdAt": "2022-10-12T13:26:33Z",
+                        "endOptimal": "2023-07-29T00:00:00Z",
+                        "endUfn": false,
+                        "id": "567530",
+                        "startAsap": false,
+                        "startOptimal": "2023-01-29T00:00:00Z",
+                        "updatedAt": "2022-10-12T13:26:33Z",
+                        "__typename": "Duration"
+                    },
+                    "uploads": [
+                        {
+                            "id": "5206177",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f6e59d7f9e976b76a1dc2327653f1044d24b7e28e981bff716613076c2b578f9.jpg",
+                            "type": "home_picture",
+                            "title": "b7e19becc018b9111b481492e2d8aaf4.jpg",
+                            "metadata": {
+                                "primary": null,
+                                "order": null,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        },
+                        {
+                            "id": "5206180",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ed19c42adb900571ea780c2c88ee473b9db51137fea0d218254a82cc0e5ca8e8.jpg",
+                            "type": "home_picture",
+                            "title": "3a9fdf187c4945d2f04904125e9a99b2.jpg",
+                            "metadata": {
+                                "primary": null,
+                                "order": null,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        },
+                        {
+                            "id": "5206182",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f265f90d80bdc931ae8cbe949e069dab8629e63eaa522ac13abd3031efd23619.jpg",
+                            "type": "home_picture",
+                            "title": "336d09d3d0be57992c43711e0b6c06cc.jpg",
+                            "metadata": {
+                                "primary": null,
+                                "order": null,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        },
+                        {
+                            "id": "5206184",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1218b7fda82da701702bf2af42e2e1fb230a2e7dd550c257b208f8edb85c1944.jpg",
+                            "type": "home_picture",
+                            "title": "c74eeb6c83c0468d3cca5e4bcea25128.jpg",
+                            "metadata": {
+                                "primary": null,
+                                "order": null,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        },
+                        {
+                            "id": "5206186",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1201f9c9a647def23a7c55934be53d2beb991e037c70349617744bf4f2ebb5c8.jpg",
+                            "type": "home_picture",
+                            "title": "a7d74fa65acad2bc26ad1a47c436ce29.jpg",
+                            "metadata": {
+                                "primary": null,
+                                "order": null,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        },
+                        {
+                            "id": "5206188",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0091aac535807c322a63ab9044c6cfe0e0133b96d66f8ef49f4ef4fe81118bb2.jpg",
+                            "type": "home_picture",
+                            "title": "35a76eeb7a664178a31e051d05fde6bf.jpg",
+                            "metadata": {
+                                "primary": null,
+                                "order": null,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        }
+                    ],
+                    "numberOfHomes": 1,
+                    "minRent": null,
+                    "maxRent": null,
+                    "minRoomCount": null,
+                    "maxRoomCount": null,
+                    "minSquareMeters": null,
+                    "maxSquareMeters": null,
+                    "rentalType": "long_term",
+                    "tenantCount": 3,
+                    "bedCount": null,
+                    "bedroomCount": null,
+                    "__typename": "Home"
+                },
+                {
+                    "id": "496813",
+                    "firsthand": false,
+                    "rent": 7232,
+                    "tenantBaseFee": 357,
+                    "title": null,
+                    "favoriteMarkedByUser": false,
+                    "landlord": {
+                        "uid": "mccdc3nm",
+                        "companyName": "Samtrygg AB",
+                        "premium": false,
+                        "professional": true,
+                        "profilePicture": {
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2effa56c42c0b449a72adf2c5d5aecc5e8d1e4ea256d0181695fdb11af16178b.jpg",
+                            "__typename": "Upload"
+                        },
+                        "proPilot": false,
+                        "__typename": "User"
+                    },
+                    "location": {
+                        "route": "Kopparbergsvägen",
+                        "locality": "Västerås",
+                        "__typename": "Location"
+                    },
+                    "roomCount": 2.0,
+                    "shared": false,
+                    "squareMeters": 30,
+                    "type": "apartment",
+                    "duration": {
+                        "createdAt": "2022-11-24T13:42:13Z",
+                        "endOptimal": "2023-06-16T00:00:00Z",
+                        "endUfn": false,
+                        "id": "597551",
+                        "startAsap": false,
+                        "startOptimal": "2023-02-01T00:00:00Z",
+                        "updatedAt": "2022-11-24T13:42:13Z",
+                        "__typename": "Duration"
+                    },
+                    "uploads": [
+                        {
+                            "id": "5526554",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c05dc374abb422ccf86eea9e4cb02a6cc3aa2b68632ad06584ee7e095d3df5b9.jpg",
+                            "type": "home_picture",
+                            "title": "d476984a6b37cf50fbcb9fb6e00bf985.jpeg",
+                            "metadata": {
+                                "primary": null,
+                                "order": 1,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        },
+                        {
+                            "id": "5526556",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c5da9b72a1951e7e6e1fab98c303814b43868f09dc7880f4b2c7baa3df088b0d.jpg",
+                            "type": "home_picture",
+                            "title": "56c76f6deb0b8794d8184dde097bea9b.jpeg",
+                            "metadata": {
+                                "primary": null,
+                                "order": 2,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        },
+                        {
+                            "id": "5526558",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/41e7ed87c88762efb5951579b706f5b90f177dbc96e95c560ce3e3631f4f35d3.jpg",
+                            "type": "home_picture",
+                            "title": "b20297895846948c75768aa41b820993.jpeg",
+                            "metadata": {
+                                "primary": null,
+                                "order": 3,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        },
+                        {
+                            "id": "5526560",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/51fecfed81bfafa89ca5eb3d353f7634f552b4d5007a21cdde9cbb440b9165bc.jpg",
+                            "type": "home_picture",
+                            "title": "803bcef4b1f2ad3c4dec72046db09c5d.jpeg",
+                            "metadata": {
+                                "primary": null,
+                                "order": 4,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        },
+                        {
+                            "id": "5526562",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c4a3d8a27a3f7b88c200ee340858d77230a996828d19413ead97faae4480f13a.jpg",
+                            "type": "home_picture",
+                            "title": "7c3ebb711084cad3f0f45957d6e9a57d.jpeg",
+                            "metadata": {
+                                "primary": null,
+                                "order": 5,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        },
+                        {
+                            "id": "5526564",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d301a0f1a1a7ba7142055cd8c7a1b5864773154a3c8ea6c3060335df09fdea91.jpg",
+                            "type": "home_picture",
+                            "title": "513b2bfaecccae0a7e2bf1bfd6375825.jpeg",
+                            "metadata": {
+                                "primary": null,
+                                "order": 6,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        }
+                    ],
+                    "numberOfHomes": 1,
+                    "minRent": null,
+                    "maxRent": null,
+                    "minRoomCount": null,
+                    "maxRoomCount": null,
+                    "minSquareMeters": null,
+                    "maxSquareMeters": null,
+                    "rentalType": "long_term",
+                    "tenantCount": 1,
+                    "bedCount": null,
+                    "bedroomCount": null,
+                    "__typename": "Home"
+                },
+                {
+                    "id": "491734",
+                    "firsthand": false,
+                    "rent": 19033,
+                    "tenantBaseFee": 942,
+                    "title": null,
+                    "favoriteMarkedByUser": false,
+                    "landlord": {
+                        "uid": "mccdc3nm",
+                        "companyName": "Samtrygg AB",
+                        "premium": false,
+                        "professional": true,
+                        "profilePicture": {
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2effa56c42c0b449a72adf2c5d5aecc5e8d1e4ea256d0181695fdb11af16178b.jpg",
+                            "__typename": "Upload"
+                        },
+                        "proPilot": false,
+                        "__typename": "User"
+                    },
+                    "location": {
+                        "route": "Tre Liljor",
+                        "locality": "Stockholm",
+                        "__typename": "Location"
+                    },
+                    "roomCount": 2.0,
+                    "shared": false,
+                    "squareMeters": 50,
+                    "type": "apartment",
+                    "duration": {
+                        "createdAt": "2022-11-15T09:52:39Z",
+                        "endOptimal": "2023-08-27T00:00:00Z",
+                        "endUfn": false,
+                        "id": "590408",
+                        "startAsap": false,
+                        "startOptimal": "2023-01-15T00:00:00Z",
+                        "updatedAt": "2022-11-15T09:52:39Z",
+                        "__typename": "Duration"
+                    },
+                    "uploads": [
+                        {
+                            "id": "5455592",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4543740b2f5bc7321b1901c983301975d9799e559fa5ef7d2f8740042ff54279.jpg",
+                            "type": "home_picture",
+                            "title": "aecd9f004dd6a64c3dbabfdace7beac4.jpeg",
+                            "metadata": {
+                                "primary": null,
+                                "order": null,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        },
+                        {
+                            "id": "5455594",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b19010d7f491de1b02bbd86fa85112179055dd76ef1804fd1b90a1e1c30b2aa5.jpg",
+                            "type": "home_picture",
+                            "title": "3dccc07c044a6ad180320746321188ce.jpeg",
+                            "metadata": {
+                                "primary": null,
+                                "order": null,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        },
+                        {
+                            "id": "5455596",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/476f4080eeaa7da84ac60ac5488da6acf01f080da8b0cc94fe441e342bdcfa17.jpg",
+                            "type": "home_picture",
+                            "title": "db9a13ab130d962019f0a750edeeb8be.jpeg",
+                            "metadata": {
+                                "primary": null,
+                                "order": null,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        },
+                        {
+                            "id": "5455598",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/12ec708a0b30b5fccef009b0bc456cfb05b8191ad60e7333a61c5b11093eb0d3.jpg",
+                            "type": "home_picture",
+                            "title": "7c1bafb6c8898128956920d7575e6d60.jpeg",
+                            "metadata": {
+                                "primary": null,
+                                "order": null,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        },
+                        {
+                            "id": "5455601",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9fbbc4ea48f07c4def9d02d7ca0b28d9cafb177fb34aa934efbc072801d6d7cd.jpg",
+                            "type": "home_picture",
+                            "title": "57d5a3560fdf436893211d7066f1f845.jpeg",
+                            "metadata": {
+                                "primary": null,
+                                "order": null,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        },
+                        {
+                            "id": "5455603",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/818eb1a4acf97da8291cfb6e068af17397570d77b29b9507cbb4c15a3f036f0e.jpg",
+                            "type": "home_picture",
+                            "title": "a6a5d60c8dd6a652fa388ff0afc8bd25.jpeg",
+                            "metadata": {
+                                "primary": null,
+                                "order": null,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        }
+                    ],
+                    "numberOfHomes": 1,
+                    "minRent": null,
+                    "maxRent": null,
+                    "minRoomCount": null,
+                    "maxRoomCount": null,
+                    "minSquareMeters": null,
+                    "maxSquareMeters": null,
+                    "rentalType": "long_term",
+                    "tenantCount": 3,
+                    "bedCount": null,
+                    "bedroomCount": null,
+                    "__typename": "Home"
+                },
+                {
+                    "id": "493897",
+                    "firsthand": false,
+                    "rent": 16218,
+                    "tenantBaseFee": 802,
+                    "title": null,
+                    "favoriteMarkedByUser": false,
+                    "landlord": {
+                        "uid": "mccdc3nm",
+                        "companyName": "Samtrygg AB",
+                        "premium": false,
+                        "professional": true,
+                        "profilePicture": {
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2effa56c42c0b449a72adf2c5d5aecc5e8d1e4ea256d0181695fdb11af16178b.jpg",
+                            "__typename": "Upload"
+                        },
+                        "proPilot": false,
+                        "__typename": "User"
+                    },
+                    "location": {
+                        "route": "Karlavägen",
+                        "locality": "Lidingö",
+                        "__typename": "Location"
+                    },
+                    "roomCount": 3.0,
+                    "shared": false,
+                    "squareMeters": 69,
+                    "type": "apartment",
+                    "duration": {
+                        "createdAt": "2022-11-19T12:52:13Z",
+                        "endOptimal": "2023-02-01T00:00:00Z",
+                        "endUfn": false,
+                        "id": "593443",
+                        "startAsap": true,
+                        "startOptimal": null,
+                        "updatedAt": "2022-12-01T05:06:04Z",
+                        "__typename": "Duration"
+                    },
+                    "uploads": [
+                        {
+                            "id": "5527869",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b3923639adc8efa8be50ed699b9645cefe32f3b0cc8087b56ef60642c2b1066c.jpg",
+                            "type": "home_picture",
+                            "title": "cbild5atq8bl6qh41mr0p-5117.jpg",
+                            "metadata": {
+                                "primary": true,
+                                "order": 1,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        },
+                        {
+                            "id": "5527861",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b8afc6fabc97196fa919936230bb99e2421015b69d29c4ae5c595833fa169af0.jpg",
+                            "type": "home_picture",
+                            "title": "cbild5atq893q8h41loji-6163.jpg",
+                            "metadata": {
+                                "primary": false,
+                                "order": 2,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        },
+                        {
+                            "id": "5527860",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bf03122f0e8e42f766deeb453b59d62666346c8ea4ed7d933ed42f7ea042646d.jpg",
+                            "type": "home_picture",
+                            "title": "cbild5atq88i9eh41lfpn-3880.jpg",
+                            "metadata": {
+                                "primary": false,
+                                "order": 4,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        },
+                        {
+                            "id": "5527862",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bfda59e15d99c07f1bb6751a296777bdc230020b9efb35c406709a5b8338eeeb.jpg",
+                            "type": "home_picture",
+                            "title": "cbild5atq8809eh41l5f0-6239.jpg",
+                            "metadata": {
+                                "primary": false,
+                                "order": 5,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        },
+                        {
+                            "id": "5527871",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/da537d35a6330153fbbe918da066565841e41fb0a4467cbb2c88aa441fe23e79.jpg",
+                            "type": "home_picture",
+                            "title": "cbild5atq86t0sh41kvjf-3757.jpg",
+                            "metadata": {
+                                "primary": false,
+                                "order": 6,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        },
+                        {
+                            "id": "5527863",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/520d9d5c3aef6ed823244d013c2fd3f3b783e53bfa7fe25a63eea0bb5d1edba5.jpg",
+                            "type": "home_picture",
+                            "title": "cbild5atq86jnah41ku7p-6192.jpg",
+                            "metadata": {
+                                "primary": false,
+                                "order": 7,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        },
+                        {
+                            "id": "5527864",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9b77abd6d6addba6f927bd484bcb33e64c9de0cc75b382c56691426a4187ad4e.jpg",
+                            "type": "home_picture",
+                            "title": "cbild5atq86ak6h41krvj-860.jpg",
+                            "metadata": {
+                                "primary": false,
+                                "order": 8,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        },
+                        {
+                            "id": "5527866",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/58a66bc9300f19536ab1b0f5b45bb07f03266b98682aab65492fed383a5d60b6.jpg",
+                            "type": "home_picture",
+                            "title": "cbild5atq83if8h41kde1-9446.jpg",
+                            "metadata": {
+                                "primary": false,
+                                "order": 9,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        },
+                        {
+                            "id": "5527865",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b30ce38227661e6b58d43dcb3e3a294381bf4c217dddc51a64e4c762e5d2329b.jpg",
+                            "type": "home_picture",
+                            "title": "cbild5atq8ggbih41oed4-6748.jpg",
+                            "metadata": {
+                                "primary": false,
+                                "order": 10,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        },
+                        {
+                            "id": "5527867",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ca1da4c5fecb9cb0d19ee37bd5c87c995c2c8806b4ad68e08bc1655e961d9f5f.jpg",
+                            "type": "home_picture",
+                            "title": "cbild5atq8fltah41o4na-8145.jpg",
+                            "metadata": {
+                                "primary": false,
+                                "order": 11,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        },
+                        {
+                            "id": "5527868",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/dbe4acf1de23db04f5246e1869a97f0708b7539514666b76a87b80d89a26b39f.jpg",
+                            "type": "home_picture",
+                            "title": "cbild5atq8e0bgh41nm2p-2567.jpg",
+                            "metadata": {
+                                "primary": false,
+                                "order": 12,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        },
+                        {
+                            "id": "5527870",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/20bc7fdcf4c8aa0457e640c982d41873b0c5bf4165260dc7932490c8ea723a69.jpg",
+                            "type": "home_picture",
+                            "title": "cbild5asbjcntmns16c94-2300.jpg",
+                            "metadata": {
+                                "primary": null,
+                                "order": 13,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        }
+                    ],
+                    "numberOfHomes": 1,
+                    "minRent": null,
+                    "maxRent": null,
+                    "minRoomCount": null,
+                    "maxRoomCount": null,
+                    "minSquareMeters": null,
+                    "maxSquareMeters": null,
+                    "rentalType": "long_term",
+                    "tenantCount": 4,
+                    "bedCount": null,
+                    "bedroomCount": null,
+                    "__typename": "Home"
+                },
+                {
+                    "id": "491210",
+                    "firsthand": false,
+                    "rent": 14375,
+                    "tenantBaseFee": 711,
+                    "title": null,
+                    "favoriteMarkedByUser": false,
+                    "landlord": {
+                        "uid": "mccdc3nm",
+                        "companyName": "Samtrygg AB",
+                        "premium": false,
+                        "professional": true,
+                        "profilePicture": {
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2effa56c42c0b449a72adf2c5d5aecc5e8d1e4ea256d0181695fdb11af16178b.jpg",
+                            "__typename": "Upload"
+                        },
+                        "proPilot": false,
+                        "__typename": "User"
+                    },
+                    "location": {
+                        "route": "Brännkyrkagatan",
+                        "locality": "Stockholm",
+                        "__typename": "Location"
+                    },
+                    "roomCount": 1.0,
+                    "shared": false,
+                    "squareMeters": 34,
+                    "type": "apartment",
+                    "duration": {
+                        "createdAt": "2022-11-14T13:04:30Z",
+                        "endOptimal": "2023-12-01T00:00:00Z",
+                        "endUfn": false,
+                        "id": "589751",
+                        "startAsap": true,
+                        "startOptimal": null,
+                        "updatedAt": "2022-12-01T05:05:48Z",
+                        "__typename": "Duration"
+                    },
+                    "uploads": [
+                        {
+                            "id": "5447831",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cb71c43f8f514c226a43dc7b6135b8376e79ba0a6513e19cd020ada925b8cb8f.jpg",
+                            "type": "home_picture",
+                            "title": "dbb89c7c79d047619c6f151804f24430.jpeg",
+                            "metadata": {
+                                "primary": null,
+                                "order": null,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        },
+                        {
+                            "id": "5447833",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d98add31f2b6bf72358e4605cdb8f67747e42f0cc355cb159def9a862962b152.jpg",
+                            "type": "home_picture",
+                            "title": "8f7b600a4c6e0f88b818ce67a558872e.jpeg",
+                            "metadata": {
+                                "primary": null,
+                                "order": null,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        },
+                        {
+                            "id": "5447835",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3391a0d977e16e1298708c0cbf9b89dc87e8c3e1e518ed752da6b6102d90ec77.jpg",
+                            "type": "home_picture",
+                            "title": "e2d4deb9e8f0998d1f75dd0688e69356.jpeg",
+                            "metadata": {
+                                "primary": null,
+                                "order": null,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        },
+                        {
+                            "id": "5447838",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/95c6a97768e2a2e96cb18fa2f0c5482286e76ed4d314f45bbb4b84f0da8968f8.jpg",
+                            "type": "home_picture",
+                            "title": "cb6db60f0279da8c3e6e001fee238a14.jpeg",
+                            "metadata": {
+                                "primary": null,
+                                "order": null,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        }
+                    ],
+                    "numberOfHomes": 1,
+                    "minRent": null,
+                    "maxRent": null,
+                    "minRoomCount": null,
+                    "maxRoomCount": null,
+                    "minSquareMeters": null,
+                    "maxSquareMeters": null,
+                    "rentalType": "long_term",
+                    "tenantCount": 2,
+                    "bedCount": null,
+                    "bedroomCount": null,
+                    "__typename": "Home"
+                },
+                {
+                    "id": "487413",
+                    "firsthand": false,
+                    "rent": 10771,
+                    "tenantBaseFee": 533,
+                    "title": null,
+                    "favoriteMarkedByUser": false,
+                    "landlord": {
+                        "uid": "mccdc3nm",
+                        "companyName": "Samtrygg AB",
+                        "premium": false,
+                        "professional": true,
+                        "profilePicture": {
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2effa56c42c0b449a72adf2c5d5aecc5e8d1e4ea256d0181695fdb11af16178b.jpg",
+                            "__typename": "Upload"
+                        },
+                        "proPilot": false,
+                        "__typename": "User"
+                    },
+                    "location": {
+                        "route": "Eggebyvägen",
+                        "locality": "Norrköping",
+                        "__typename": "Location"
+                    },
+                    "roomCount": 2.0,
+                    "shared": false,
+                    "squareMeters": 60,
+                    "type": "apartment",
+                    "duration": {
+                        "createdAt": "2022-11-07T09:37:44Z",
+                        "endOptimal": null,
+                        "endUfn": true,
+                        "id": "584849",
+                        "startAsap": true,
+                        "startOptimal": null,
+                        "updatedAt": "2022-11-07T09:37:44Z",
+                        "__typename": "Duration"
+                    },
+                    "uploads": [
+                        {
+                            "id": "5392385",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/872ae1e9da22a203a8d870edc2f717a7dd591d176c49902047cd1a02db0abc20.jpg",
+                            "type": "home_picture",
+                            "title": "79ce1071de216981fb2d23e2d7fad82a.jpg",
+                            "metadata": {
+                                "primary": null,
+                                "order": null,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        },
+                        {
+                            "id": "5392387",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bd1463dc30e0a5fa4ee632165b6b2c34493dcca4b7997fac0f01d70e57f56785.jpg",
+                            "type": "home_picture",
+                            "title": "9bd0cd3aae47505bcd2cee1df9abece1.jpg",
+                            "metadata": {
+                                "primary": null,
+                                "order": null,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        },
+                        {
+                            "id": "5392389",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/70d40b9018607a40ec2325a642b48b6fe56a17d75036db1052c2cebe76cc9f8e.jpg",
+                            "type": "home_picture",
+                            "title": "1b795f612eb7d84d920858c6f3f1d9c2.jpg",
+                            "metadata": {
+                                "primary": null,
+                                "order": null,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        },
+                        {
+                            "id": "5392391",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/301a72f2539b2fb4b877d88a4a24884d3bb01d671d294ef930498c75212a4a2f.jpg",
+                            "type": "home_picture",
+                            "title": "8ec4e1bdf5ef6d734a2f2bcc75ca5369.jpg",
+                            "metadata": {
+                                "primary": null,
+                                "order": null,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        },
+                        {
+                            "id": "5392393",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b6899d98cba1ff563f405c4d124978accb9e11e259b22ca47d36c4580d78761a.jpg",
+                            "type": "home_picture",
+                            "title": "d2e5fe1d717c60535c0db3ff17b06b0b.jpg",
+                            "metadata": {
+                                "primary": null,
+                                "order": null,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        },
+                        {
+                            "id": "5392395",
+                            "url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0caba9f45747f86bf2abd594662d92950a14d6eb18c45266da2552e2da7a84f2.jpg",
+                            "type": "home_picture",
+                            "title": "6bc9af45f80b40893a130b8373ad6483.jpg",
+                            "metadata": {
+                                "primary": null,
+                                "order": null,
+                                "__typename": "UploadMetadata"
+                            },
+                            "__typename": "Upload"
+                        }
+                    ],
+                    "numberOfHomes": 1,
+                    "minRent": null,
+                    "maxRent": null,
+                    "minRoomCount": null,
+                    "maxRoomCount": null,
+                    "minSquareMeters": null,
+                    "maxSquareMeters": null,
+                    "rentalType": "long_term",
+                    "tenantCount": 3,
+                    "bedCount": null,
+                    "bedroomCount": null,
+                    "__typename": "Home"
+                }
+            ],
+            "homeApplicationsToMyHomes": [],
+            "applicationStats": {
+                "uid": "mccdc3nm",
+                "locales": [
+                    "Göteborg"
+                ],
+                "priceMin": 13249,
+                "priceMax": 13249,
+                "roomMin": 2,
+                "roomMax": 2,
+                "__typename": "UserApplicationStats"
+            },
+            "__typename": "User"
+        }
+    }
+}

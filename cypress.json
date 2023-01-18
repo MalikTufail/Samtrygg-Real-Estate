@@ -2,9 +2,14 @@
     "baseUrl": "https://www.samtrygg.se",
     "chromeWebSecurity": false,
     "experimentalSessionAndOrigin": true,
+    "defaultCommandTimeout": 10000,
     "pageLoadTimeout": 2400000,
     "failOnStatusCode": false,
     "viewportHeight": 1000,
     "viewportWidth": 1280,
-    "redirectionLimit": 2000
+    "redirectionLimit": 2000,
+    "numTestsKeptInMemory": 0,
+    "requestTimeout": 30000,
+    "responseTimeout": 50000,
+    "reporter": "reporters/custom.js"
 }
