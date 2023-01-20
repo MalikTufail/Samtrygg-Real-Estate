@@ -1,0 +1,465 @@
+Blocket RO: Agnesfridsvägen and SquareMeter: 75 and rooms Count: 3
+Samtrygg RO: Agnesfridsvägen  and SquareMeter: 75 and rooms Count: 3
+
+Blocket RO: Söderberga allé and SquareMeter: 60 and rooms Count: 2
+Samtrygg RO: Söderberga allé  and SquareMeter: 60 and rooms Count: 2
+
+Blocket RO: Lekängsvägen and SquareMeter: 43 and rooms Count: 1
+Samtrygg RO: Lekängsvägen  and SquareMeter: 43 and rooms Count: 1
+
+Blocket RO: Skogsviksvägen and SquareMeter: 150 and rooms Count: 4
+Samtrygg RO: Skogsviksvägen  and SquareMeter: 150 and rooms Count: 4
+
+Blocket RO: dukared solvilla and SquareMeter: 115 and rooms Count: 6
+Samtrygg RO: dukared solvilla  and SquareMeter: 115 and rooms Count: 6
+
+Blocket RO: Anna Steckséns gata and SquareMeter: 31 and rooms Count: 1
+Samtrygg RO: Anna Steckséns gata  and SquareMeter: 31 and rooms Count: 1
+
+Blocket RO: Anna Steckséns gata and SquareMeter: 31 and rooms Count: 1
+Samtrygg RO: Anna Steckséns gata  and SquareMeter: 31 and rooms Count: 1
+
+Blocket RO: Slåttervägen and SquareMeter: 65 and rooms Count: 3
+Samtrygg RO: Slåttervägen  and SquareMeter: 65 and rooms Count: 3
+
+Blocket RO: Tomtbergavägen and SquareMeter: 85 and rooms Count: 3
+Samtrygg RO: Tomtbergavägen  and SquareMeter: 85 and rooms Count: 3
+
+Blocket RO: Mirabellbacken and SquareMeter: 70 and rooms Count: 3
+Samtrygg RO: Mirabellbacken  and SquareMeter: 70 and rooms Count: 3
+
+Blocket RO: Mörbylund and SquareMeter: 46 and rooms Count: 2
+Samtrygg RO: Mörbylund  and SquareMeter: 46 and rooms Count: 2
+
+Blocket RO: Stationsgatan and SquareMeter: 55 and rooms Count: 2
+Samtrygg RO: Stationsgatan  and SquareMeter: 55 and rooms Count: 2
+
+Blocket RO: Videsparvsgatan and SquareMeter: 110 and rooms Count: 4
+Samtrygg RO: Videsparvsgatan  and SquareMeter: 110 and rooms Count: 4
+
+Blocket RO: Södra Hunnetorpsvägen and SquareMeter: 80 and rooms Count: 3
+Samtrygg RO: Södra Hunnetorpsvägen  and SquareMeter: 80 and rooms Count: 3
+
+Blocket RO: Södra Hunnetorpsvägen and SquareMeter: 80 and rooms Count: 3
+Samtrygg RO: Södra Hunnetorpsvägen  and SquareMeter: 80 and rooms Count: 3
+
+Blocket RO: Varmblodsgatan and SquareMeter: 41 and rooms Count: 2
+Samtrygg RO: Varmblodsgatan  and SquareMeter: 41 and rooms Count: 2
+
+Blocket RO: Igeldammsgatan and SquareMeter: 102 and rooms Count: 3.5
+Samtrygg RO: Igeldammsgatan  and SquareMeter: 102 and rooms Count: 3.5
+
+Blocket RO: Drottningholmsvägen and SquareMeter: 80 and rooms Count: 3
+Samtrygg RO: Drottningholmsvägen  and SquareMeter: 80 and rooms Count: 3
+
+Blocket RO: Södra Vägen and SquareMeter: 242 and rooms Count: 6
+Samtrygg RO: Södra Vägen  and SquareMeter: 242 and rooms Count: 6
+
+Blocket RO: Båtsmansvägen and SquareMeter: 48 and rooms Count: 3
+Samtrygg RO: Båtsmansvägen  and SquareMeter: 48 and rooms Count: 3
+
+Blocket RO: Järnåkravägen and SquareMeter: 62 and rooms Count: 2
+Samtrygg RO: Järnåkravägen  and SquareMeter: 62 and rooms Count: 2
+
+Blocket RO: Per Albin Hanssons väg and SquareMeter: 74 and rooms Count: 3
+Samtrygg RO: Per Albin Hanssons väg  and SquareMeter: 74 and rooms Count: 3
+
+Blocket RO: Ankarsmedsgatan and SquareMeter: 90 and rooms Count: 4
+Samtrygg RO: Ankarsmedsgatan  and SquareMeter: 90 and rooms Count: 4
+
+Blocket RO: Rättar Vigs väg and SquareMeter: 122 and rooms Count: 7
+Samtrygg RO: Rättar Vigs väg  and SquareMeter: 122 and rooms Count: 7
+
+Blocket RO: Västansjövägen and SquareMeter: 80 and rooms Count: 4
+Samtrygg RO: Västansjövägen  and SquareMeter: 80 and rooms Count: 4
+
+Blocket RO: Lindholmsallén and SquareMeter: 40 and rooms Count: 2
+Samtrygg RO: Lindholmsallén  and SquareMeter: 40 and rooms Count: 2
+
+Blocket RO: Fjällvägen and SquareMeter: 190 and rooms Count: 7
+Samtrygg RO: Fjällvägen  and SquareMeter: 190 and rooms Count: 7
+
+Blocket RO: Malungsvägen and SquareMeter: 135 and rooms Count: 4
+Samtrygg RO: Malungsvägen  and SquareMeter: 135 and rooms Count: 4
+
+Blocket RO: Valthornsvägen and SquareMeter: 40 and rooms Count: 1
+Samtrygg RO: Valthornsvägen  and SquareMeter: 40 and rooms Count: 1
+
+Blocket RO: Backvindeln and SquareMeter: 180 and rooms Count: 5
+Samtrygg RO: Backvindeln  and SquareMeter: 180 and rooms Count: 5
+
+Blocket RO: Skärv husgärdet and SquareMeter: 150 and rooms Count: 6
+Samtrygg RO: Skärv husgärdet  and SquareMeter: 150 and rooms Count: 6
+
+Blocket RO: S:t Olovsgatan and SquareMeter: 58 and rooms Count: 2
+Samtrygg RO: S:t Olovsgatan  and SquareMeter: 58 and rooms Count: 2
+
+Blocket RO: Regementsgatan and SquareMeter: 52 and rooms Count: 2
+Samtrygg RO: Regementsgatan  and SquareMeter: 52 and rooms Count: 2
+
+Blocket RO: Fridensborgsvägen and SquareMeter: 93 and rooms Count: 4
+Samtrygg RO: Fridensborgsvägen  and SquareMeter: 93 and rooms Count: 4
+
+Blocket RO: Västra Breviksvägen and SquareMeter: 200 and rooms Count: 7
+Samtrygg RO: Västra Breviksvägen  and SquareMeter: 200 and rooms Count: 7
+
+Blocket RO: Karlavägen and SquareMeter: 30 and rooms Count: 2
+Samtrygg RO: Karlavägen  and SquareMeter: 30 and rooms Count: 2
+
+Blocket RO: Anna Steckséns gata and SquareMeter: 35 and rooms Count: 2
+Samtrygg RO: Anna Steckséns gata  and SquareMeter: 35 and rooms Count: 2
+
+Blocket RO: Katarina Bangata and SquareMeter: 104 and rooms Count: 4
+Samtrygg RO: Katarina Bangata  and SquareMeter: 104 and rooms Count: 4
+
+Blocket RO: Hagavägen and SquareMeter: 59 and rooms Count: 2
+Samtrygg RO: Hagavägen  and SquareMeter: 59 and rooms Count: 2
+
+Blocket RO: Bjurholmsplan and SquareMeter: 24 and rooms Count: 1
+Samtrygg RO: Bjurholmsplan  and SquareMeter: 24 and rooms Count: 1
+
+Blocket RO: Svartviksslingan and SquareMeter: 91 and rooms Count: 4
+Samtrygg RO: Svartviksslingan  and SquareMeter: 91 and rooms Count: 4
+
+Blocket RO: Västeråsvägen and SquareMeter: 50 and rooms Count: 2
+Samtrygg RO: Västeråsvägen  and SquareMeter: 50 and rooms Count: 2
+
+Blocket RO: Adolf Fredriks kyrkogata and SquareMeter: 75 and rooms Count: 3
+Samtrygg RO: Adolf Fredriks kyrkogata  and SquareMeter: 75 and rooms Count: 3
+
+Blocket RO: Hagagatan and SquareMeter: 106 and rooms Count: 4
+Samtrygg RO: Hagagatan  and SquareMeter: 106 and rooms Count: 4
+
+Blocket RO: Själlandsgatan and SquareMeter: 102 and rooms Count: 4
+Samtrygg RO: Själlandsgatan  and SquareMeter: 102 and rooms Count: 4
+
+Blocket RO: Kungsvägen and SquareMeter: 40 and rooms Count: 2
+Samtrygg RO: Kungsvägen  and SquareMeter: 40 and rooms Count: 2
+
+Blocket RO: Fyrisvallsgatan and SquareMeter: 77 and rooms Count: 3
+Samtrygg RO: Fyrisvallsgatan  and SquareMeter: 77 and rooms Count: 3
+
+Blocket RO: Aspvägen and SquareMeter: 65 and rooms Count: 2
+Samtrygg RO: Aspvägen  and SquareMeter: 65 and rooms Count: 2
+
+Blocket RO: Stadsängsgatan and SquareMeter: 10 and rooms Count: 1
+Samtrygg RO: Stadsängsgatan  and SquareMeter: 10 and rooms Count: 1
+
+Blocket RO: Solstrålevägen and SquareMeter: 104 and rooms Count: 4
+Samtrygg RO: Solstrålevägen  and SquareMeter: 104 and rooms Count: 4
+
+Blocket RO: Emmy Rappes Gata and SquareMeter: 72 and rooms Count: 3
+Samtrygg RO: Emmy Rappes Gata  and SquareMeter: 72 and rooms Count: 3
+
+Blocket RO: Gaffelseglet and SquareMeter: 35 and rooms Count: 1
+Samtrygg RO: Gaffelseglet  and SquareMeter: 35 and rooms Count: 1
+
+Blocket RO: Bingevägen and SquareMeter: 140 and rooms Count: 4
+Samtrygg RO: Bingevägen  and SquareMeter: 140 and rooms Count: 4
+
+Blocket RO: Planimetervägen and SquareMeter: 143 and rooms Count: 5
+Samtrygg RO: Planimetervägen  and SquareMeter: 143 and rooms Count: 5
+
+Blocket RO: Kungshultsvägen and SquareMeter: 122 and rooms Count: 4
+Samtrygg RO: Kungshultsvägen  and SquareMeter: 122 and rooms Count: 4
+
+Blocket RO: Palanders väg and SquareMeter: 104 and rooms Count: 4
+Samtrygg RO: Palanders väg  and SquareMeter: 104 and rooms Count: 4
+
+Blocket RO: Hammarvägen and SquareMeter: 49 and rooms Count: 2
+Samtrygg RO: Hammarvägen  and SquareMeter: 49 and rooms Count: 2
+
+Blocket RO: Båtsman Stens väg and SquareMeter: 110 and rooms Count: 4
+Samtrygg RO: Båtsman Stens väg  and SquareMeter: 110 and rooms Count: 4
+
+Blocket RO: Vinbärsgatan and SquareMeter: 90 and rooms Count: 3
+Samtrygg RO: Vinbärsgatan  and SquareMeter: 90 and rooms Count: 3
+
+Blocket RO: Lugnets Allé and SquareMeter: 63 and rooms Count: 2
+Samtrygg RO: Lugnets Allé  and SquareMeter: 63 and rooms Count: 2
+
+Blocket RO: Oshögavägen and SquareMeter: 110 and rooms Count: 5
+Samtrygg RO: Oshögavägen  and SquareMeter: 110 and rooms Count: 5
+
+Blocket RO: Barken Storegrunds gata and SquareMeter: 45 and rooms Count: 2
+Samtrygg RO: Barken Storegrunds gata  and SquareMeter: 45 and rooms Count: 2
+
+Blocket RO: Opalvägen and SquareMeter: 55 and rooms Count: 2
+Samtrygg RO: Opalvägen  and SquareMeter: 55 and rooms Count: 2
+
+Blocket RO: Videvägen and SquareMeter: 35 and rooms Count: 1
+Samtrygg RO: Videvägen  and SquareMeter: 35 and rooms Count: 1
+
+Blocket RO: Kostervägen and SquareMeter: 41 and rooms Count: 1
+Samtrygg RO: Kostervägen  and SquareMeter: 41 and rooms Count: 1
+
+Blocket RO: Skördevägen and SquareMeter: 45 and rooms Count: 1
+Samtrygg RO: Skördevägen  and SquareMeter: 45 and rooms Count: 1
+
+Blocket RO: Götaverksgatan and SquareMeter: 68 and rooms Count: 2
+Samtrygg RO: Götaverksgatan  and SquareMeter: 68 and rooms Count: 2
+
+Blocket RO: Carin Bååts Gata and SquareMeter: 130 and rooms Count: 5
+Samtrygg RO: Carin Bååts Gata  and SquareMeter: 130 and rooms Count: 5
+
+Blocket RO: Dragonvägen and SquareMeter: 65 and rooms Count: 2
+Samtrygg RO: Dragonvägen  and SquareMeter: 65 and rooms Count: 2
+
+Blocket RO: Skebokvarnsvägen and SquareMeter: 25 and rooms Count: 1
+Samtrygg RO: Skebokvarnsvägen  and SquareMeter: 25 and rooms Count: 1
+
+Blocket RO: Knutstigen and SquareMeter: 200 and rooms Count: 6
+Samtrygg RO: Knutstigen  and SquareMeter: 200 and rooms Count: 6
+
+Blocket RO: Ölandsgatan and SquareMeter: 41 and rooms Count: 2
+Samtrygg RO: Ölandsgatan  and SquareMeter: 41 and rooms Count: 2
+
+Blocket RO: Norr Mälarstrand and SquareMeter: 89 and rooms Count: 3
+Samtrygg RO: Norr Mälarstrand  and SquareMeter: 89 and rooms Count: 3
+
+Blocket RO: Tjusarstigen and SquareMeter: 135 and rooms Count: 5
+Samtrygg RO: Tjusarstigen  and SquareMeter: 135 and rooms Count: 5
+
+Blocket RO: Furugatan and SquareMeter: 135 and rooms Count: 5
+Samtrygg RO: Furugatan  and SquareMeter: 135 and rooms Count: 5
+
+Blocket RO: Gudbyvägen and SquareMeter: 100 and rooms Count: 4
+Samtrygg RO: Gudbyvägen  and SquareMeter: 100 and rooms Count: 4
+
+Blocket RO: Terrassvägen and SquareMeter: 102 and rooms Count: 3
+Samtrygg RO: Terrassvägen  and SquareMeter: 102 and rooms Count: 3
+
+Blocket RO: Sjövalla Klint and SquareMeter: 155 and rooms Count: 6
+Samtrygg RO: Sjövalla Klint  and SquareMeter: 155 and rooms Count: 6
+
+Blocket RO: Fäskogsvägen and SquareMeter: 12 and rooms Count: 1
+Samtrygg RO: Fäskogsvägen  and SquareMeter: 12 and rooms Count: 1
+
+Blocket RO: Skivlingsvägen and SquareMeter: 120 and rooms Count: 4
+Samtrygg RO: Skivlingsvägen  and SquareMeter: 120 and rooms Count: 4
+
+Blocket RO: Bangårdsvägen and SquareMeter: 60 and rooms Count: 2
+Samtrygg RO: Bangårdsvägen  and SquareMeter: 60 and rooms Count: 2
+
+Blocket RO: Lunnavägen and SquareMeter: 161 and rooms Count: 5
+Samtrygg RO: Lunnavägen  and SquareMeter: 161 and rooms Count: 5
+
+Blocket RO: Högsböleskiftet and SquareMeter: 55 and rooms Count: 3
+Samtrygg RO: Högsböleskiftet  and SquareMeter: 55 and rooms Count: 3
+
+Blocket RO: STÄMMEN and SquareMeter: 60 and rooms Count: 2
+Samtrygg RO: STÄMMEN  and SquareMeter: 60 and rooms Count: 2
+
+Blocket RO: STÄMMEN and SquareMeter: 60 and rooms Count: 2
+Samtrygg RO: STÄMMEN  and SquareMeter: 60 and rooms Count: 2
+
+Blocket RO: Kronovägen and SquareMeter: 95 and rooms Count: 3
+Samtrygg RO: Kronovägen  and SquareMeter: 95 and rooms Count: 3
+
+Blocket RO: Hanstanäsvägen and SquareMeter: 130 and rooms Count: 4
+Samtrygg RO: Hanstanäsvägen  and SquareMeter: 130 and rooms Count: 4
+
+Blocket RO: Åbylundsgatan and SquareMeter: 60 and rooms Count: 2
+Samtrygg RO: Åbylundsgatan  and SquareMeter: 60 and rooms Count: 2
+
+Blocket RO: Åbylundsgatan and SquareMeter: 60 and rooms Count: 2
+Samtrygg RO: Åbylundsgatan  and SquareMeter: 60 and rooms Count: 2
+
+Blocket RO: Kummelvägen and SquareMeter: 145 and rooms Count: 5
+Samtrygg RO: Kummelvägen  and SquareMeter: 145 and rooms Count: 5
+
+Blocket RO: Måndalsvägen and SquareMeter: 140 and rooms Count: 5
+Samtrygg RO: Måndalsvägen  and SquareMeter: 140 and rooms Count: 5
+
+Blocket RO: Alviksvägen and SquareMeter: 35 and rooms Count: 1
+Samtrygg RO: Alviksvägen  and SquareMeter: 35 and rooms Count: 1
+
+Blocket RO: Bågspännarvägen and SquareMeter: 63 and rooms Count: 3
+Samtrygg RO: Bågspännarvägen  and SquareMeter: 63 and rooms Count: 3
+
+Blocket RO: Backadalsgatan and SquareMeter: 135 and rooms Count: 6
+Samtrygg RO: Backadalsgatan  and SquareMeter: 135 and rooms Count: 6
+
+Blocket RO: Sorögatan and SquareMeter: 120 and rooms Count: 5
+Samtrygg RO: Sorögatan  and SquareMeter: 120 and rooms Count: 5
+
+Blocket RO: Sidvallsgatan and SquareMeter: 65 and rooms Count: 2
+Samtrygg RO: Sidvallsgatan  and SquareMeter: 65 and rooms Count: 2
+
+Blocket RO: Mörbyvägen and SquareMeter: 205 and rooms Count: 7
+Samtrygg RO: Mörbyvägen  and SquareMeter: 205 and rooms Count: 7
+
+Blocket RO: Arkivgatan and SquareMeter: 49 and rooms Count: 1.5
+Samtrygg RO: Arkivgatan  and SquareMeter: 49 and rooms Count: 1.5
+
+Blocket RO: Petersbergsstigen and SquareMeter: 130 and rooms Count: 4
+Samtrygg RO: Petersbergsstigen  and SquareMeter: 130 and rooms Count: 4
+
+Blocket RO: Egnahemsgatan and SquareMeter: 75 and rooms Count: 4
+Samtrygg RO: Egnahemsgatan  and SquareMeter: 75 and rooms Count: 4
+
+Blocket RO: Bangatan and SquareMeter: 80 and rooms Count: 4
+Samtrygg RO: Bangatan  and SquareMeter: 80 and rooms Count: 4
+
+Blocket RO: Övre Sanatoriegatan and SquareMeter: 80 and rooms Count: 3
+Samtrygg RO: Övre Sanatoriegatan  and SquareMeter: 80 and rooms Count: 3
+
+Blocket RO: Brändtorpsvägen and SquareMeter: 27 and rooms Count: 1
+Samtrygg RO: Brändtorpsvägen  and SquareMeter: 27 and rooms Count: 1
+
+Blocket RO: Skedviksvägen and SquareMeter: 110 and rooms Count: 4
+Samtrygg RO: Skedviksvägen  and SquareMeter: 110 and rooms Count: 4
+
+Blocket RO: Iversonsgatan and SquareMeter: 52 and rooms Count: 2
+Samtrygg RO: Iversonsgatan  and SquareMeter: 52 and rooms Count: 2
+
+Blocket RO: Pirogvägen and SquareMeter: 150 and rooms Count: 6
+Samtrygg RO: Pirogvägen  and SquareMeter: 150 and rooms Count: 6
+
+Blocket RO: Hansbergsvägen and SquareMeter: 55 and rooms Count: 2
+Samtrygg RO: Hansbergsvägen  and SquareMeter: 55 and rooms Count: 2
+
+Blocket RO: Falkgatan and SquareMeter: 65 and rooms Count: 2
+Samtrygg RO: Falkgatan  and SquareMeter: 65 and rooms Count: 2
+
+Blocket RO: Fårtickegången and SquareMeter: 150 and rooms Count: 5
+Samtrygg RO: Fårtickegången  and SquareMeter: 150 and rooms Count: 5
+
+Blocket RO: Hantverkargatan and SquareMeter: 31 and rooms Count: 2
+Samtrygg RO: Hantverkargatan  and SquareMeter: 31 and rooms Count: 2
+
+Blocket RO: Norra Fjädermolnsgatan and SquareMeter: 55 and rooms Count: 2
+Samtrygg RO: Norra Fjädermolnsgatan  and SquareMeter: 55 and rooms Count: 2
+
+Blocket RO: Norra Fjädermolnsgatan and SquareMeter: 55 and rooms Count: 2
+Samtrygg RO: Norra Fjädermolnsgatan  and SquareMeter: 55 and rooms Count: 2
+
+Blocket RO: Banérgatan and SquareMeter: 55 and rooms Count: 2
+Samtrygg RO: Banérgatan  and SquareMeter: 55 and rooms Count: 2
+
+Blocket RO: Violabergsvägen and SquareMeter: 125 and rooms Count: 5
+Samtrygg RO: Violabergsvägen  and SquareMeter: 125 and rooms Count: 5
+
+Blocket RO: Viktoriagatan and SquareMeter: 55 and rooms Count: 2
+Samtrygg RO: Viktoriagatan  and SquareMeter: 55 and rooms Count: 2
+
+Blocket RO: Kungälvsgatan and SquareMeter: 160 and rooms Count: 6
+Samtrygg RO: Kungälvsgatan  and SquareMeter: 160 and rooms Count: 6
+
+Blocket RO: Nystrandsgatan and SquareMeter: 85 and rooms Count: 3
+Samtrygg RO: Nystrandsgatan  and SquareMeter: 85 and rooms Count: 3
+
+Blocket RO: Stramaljvägen and SquareMeter: 15 and rooms Count: 1
+Samtrygg RO: Stramaljvägen  and SquareMeter: 15 and rooms Count: 1
+
+Blocket RO: Urbergsvägen and SquareMeter: 207 and rooms Count: 7
+Samtrygg RO: Urbergsvägen  and SquareMeter: 207 and rooms Count: 7
+
+Blocket RO: Ulvsundavägen and SquareMeter: 40 and rooms Count: 2
+Samtrygg RO: Ulvsundavägen  and SquareMeter: 40 and rooms Count: 2
+
+Blocket RO: Edelundavägen and SquareMeter: 31 and rooms Count: 1
+Samtrygg RO: Edelundavägen  and SquareMeter: 31 and rooms Count: 1
+
+Blocket RO: Edelundavägen and SquareMeter: 31 and rooms Count: 1
+Samtrygg RO: Edelundavägen  and SquareMeter: 31 and rooms Count: 1
+
+Blocket RO: S:t Peders gata and SquareMeter: 60 and rooms Count: 2
+Samtrygg RO: S:t Peders gata  and SquareMeter: 60 and rooms Count: 2
+
+Blocket RO: Kullaviks Kaprifolväg and SquareMeter: 30 and rooms Count: 1
+Samtrygg RO: Kullaviks Kaprifolväg  and SquareMeter: 30 and rooms Count: 1
+
+Blocket RO: Gamla Tullingevägen and SquareMeter: 160 and rooms Count: 4
+Samtrygg RO: Gamla Tullingevägen  and SquareMeter: 160 and rooms Count: 4
+
+Blocket RO: Naumannsvägen and SquareMeter: 115 and rooms Count: 5
+Samtrygg RO: Naumannsvägen  and SquareMeter: 115 and rooms Count: 5
+
+Blocket RO: Vallstigen and SquareMeter: 150 and rooms Count: 6
+Samtrygg RO: Vallstigen  and SquareMeter: 150 and rooms Count: 6
+
+Blocket RO: Bennebolsgatan and SquareMeter: 35 and rooms Count: 1
+Samtrygg RO: Bennebolsgatan  and SquareMeter: 35 and rooms Count: 1
+
+Blocket RO: Smedjegårdsvägen and SquareMeter: 115 and rooms Count: 4
+Samtrygg RO: Smedjegårdsvägen  and SquareMeter: 115 and rooms Count: 4
+
+Blocket RO: Trollesundsvägen and SquareMeter: 20 and rooms Count: 1
+Samtrygg RO: Trollesundsvägen  and SquareMeter: 20 and rooms Count: 1
+
+Blocket RO: Trollesundsvägen and SquareMeter: 20 and rooms Count: 1
+Samtrygg RO: Trollesundsvägen  and SquareMeter: 20 and rooms Count: 1
+
+Blocket RO: Kubikenborgsgatan and SquareMeter: 75 and rooms Count: 3
+Samtrygg RO: Kubikenborgsgatan  and SquareMeter: 75 and rooms Count: 3
+
+Blocket RO: Ellagårdsvägen and SquareMeter: 110 and rooms Count: 3
+Samtrygg RO: Ellagårdsvägen  and SquareMeter: 110 and rooms Count: 3
+
+Blocket RO: Kupeskärsgatan and SquareMeter: 115 and rooms Count: 6
+Samtrygg RO: Kupeskärsgatan  and SquareMeter: 115 and rooms Count: 6
+
+Blocket RO: Västra Eklanda Höjd and SquareMeter: 130 and rooms Count: 5
+Samtrygg RO: Västra Eklanda Höjd  and SquareMeter: 130 and rooms Count: 5
+
+Blocket RO: Slättvägen and SquareMeter: 200 and rooms Count: 7
+Samtrygg RO: Slättvägen  and SquareMeter: 200 and rooms Count: 7
+
+Blocket RO: Ekensbergsvägen and SquareMeter: 17 and rooms Count: 1
+Samtrygg RO: Ekensbergsvägen  and SquareMeter: 17 and rooms Count: 1
+
+Blocket RO: Källmyrsgatan and SquareMeter: 115 and rooms Count: 4
+Samtrygg RO: Källmyrsgatan  and SquareMeter: 115 and rooms Count: 4
+
+Blocket RO: Tegelbruksvägen and SquareMeter: 120 and rooms Count: 4
+Samtrygg RO: Tegelbruksvägen  and SquareMeter: 120 and rooms Count: 4
+
+Blocket RO: Tegelbruksvägen and SquareMeter: 120 and rooms Count: 4
+Samtrygg RO: Tegelbruksvägen  and SquareMeter: 120 and rooms Count: 4
+
+Blocket RO: Skånegatan and SquareMeter: 50 and rooms Count: 2
+Samtrygg RO: Skånegatan  and SquareMeter: 50 and rooms Count: 2
+
+Blocket RO: Vintervägen and SquareMeter: 50 and rooms Count: 2
+Samtrygg RO: Vintervägen  and SquareMeter: 50 and rooms Count: 2
+
+Blocket RO: Stapelbäddsgatan and SquareMeter: 85 and rooms Count: 3
+Samtrygg RO: Stapelbäddsgatan  and SquareMeter: 85 and rooms Count: 3
+
+Blocket RO: Fredrik Jahns gränd and SquareMeter: 37 and rooms Count: 1
+Samtrygg RO: Fredrik Jahns gränd  and SquareMeter: 37 and rooms Count: 1
+
+Blocket RO: Humblegatan and SquareMeter: 56 and rooms Count: 2
+Samtrygg RO: Humblegatan  and SquareMeter: 56 and rooms Count: 2
+
+Blocket RO: Bredgatan and SquareMeter: 80 and rooms Count: 3
+Samtrygg RO: Bredgatan  and SquareMeter: 80 and rooms Count: 3
+
+Blocket RO: Kolarbacken and SquareMeter: 35 and rooms Count: 1
+Samtrygg RO: Kolarbacken  and SquareMeter: 35 and rooms Count: 1
+
+Blocket RO: Hacktorpsvägen and SquareMeter: 110 and rooms Count: 4
+Samtrygg RO: Hacktorpsvägen  and SquareMeter: 110 and rooms Count: 4
+
+Blocket RO: Kantarellstigen and SquareMeter: 60 and rooms Count: 4
+Samtrygg RO: Kantarellstigen  and SquareMeter: 60 and rooms Count: 4
+
+Blocket RO: Torsplan and SquareMeter: 85 and rooms Count: 4
+Samtrygg RO: Torsplan  and SquareMeter: 85 and rooms Count: 4
+
+Blocket RO: Råsundavägen and SquareMeter: 35 and rooms Count: 1
+Samtrygg RO: Råsundavägen  and SquareMeter: 35 and rooms Count: 1
+
+Blocket RO: Kopparbergsvägen and SquareMeter: 30 and rooms Count: 2
+Samtrygg RO: Kopparbergsvägen  and SquareMeter: 30 and rooms Count: 2
+
+Blocket RO: Lärkstigen and SquareMeter: 79 and rooms Count: 4
+Samtrygg RO: Lärkstigen  and SquareMeter: 79 and rooms Count: 4
+
+Blocket RO: Herr Alfs väg and SquareMeter: 90 and rooms Count: 3
+Samtrygg RO: Herr Alfs väg  and SquareMeter: 90 and rooms Count: 3
+
+Blocket RO: Hakvägen and SquareMeter: 56 and rooms Count: 2
+Samtrygg RO: Hakvägen  and SquareMeter: 56 and rooms Count: 2
+

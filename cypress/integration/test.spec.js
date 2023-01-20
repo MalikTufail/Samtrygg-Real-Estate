@@ -1,8 +1,8 @@
-// const fs = require("fs");
-let route;
-let streets = []
-let rooms = []
-let square = []
+const fs = require("fs");
+// let route;
+// let streets = []
+// let rooms = []
+// let square = []
 describe('street automate', () => {
     beforeEach(() => {
         cy.on('uncaught:exception', (err, runnable) => {
@@ -18,47 +18,79 @@ describe('street automate', () => {
         })
     })
     it('test 1', () => {
-        cy.readFile('SearchResult.json').then(data => {
-            for(let j = 0; j < data.SearchResult.length; j++) {
-                cy.readFile('data.json').then(data1 => {
-                    for(let i = 0; i < data1.data.user.publishedHomes.length; i++) {
+        cy.readFile('data.json').then(data => {
+            for(let j = 0; j < data.data.user.publishedHomes.length; j++) {
+                cy.readFile('SearchResult.json').then(data1 => {
+                    for(let i = 0; i < data1.SearchResult.length; i++) {
                         // cy.log(data1.data.user.publishedHomes[i].squareMeters, data1.data.user.publishedHomes[i].location.route)
-                        if(data.SearchResult[j].SquareMeters == data1.data.user.publishedHomes[i].squareMeters && data.SearchResult[j].StreetName == data1.data.user.publishedHomes[i].location.route && data.SearchResult[j].NoOfRooms == data1.data.user.publishedHomes[i].roomCount ){
-                            expect(data1.data.user.publishedHomes[i].squareMeters).to.equal(data.SearchResult[j].SquareMeters),
-                            expect(data1.data.user.publishedHomes[i].location.route).to.equal(data.SearchResult[j].StreetName),
-                            expect(data1.data.user.publishedHomes[i].roomCount).to.equal(data.SearchResult[j].NoOfRooms)
+                        if(data1.SearchResult[i].SquareMeters == data.data.user.publishedHomes[j].squareMeters && data1.SearchResult[i].StreetName == data.data.user.publishedHomes[j].location.route && data1.SearchResult[i].NoOfRooms == data.data.user.publishedHomes[j].roomCount ){
+                            expect(data.data.user.publishedHomes[j].squareMeters).to.equal(data1.SearchResult[i].SquareMeters),
+                            expect(data.data.user.publishedHomes[j].location.route).to.equal(data1.SearchResult[i].StreetName),
+                            expect(data.data.user.publishedHomes[j].roomCount).to.equal(data1.SearchResult[i].NoOfRooms)
+                            const samtryggContents = `Samtrygg RO: ${data1.SearchResult[i].StreetName} and SquareMeter: ${data1.SearchResult[i].SquareMeters } and rooms Count: ${data1.SearchResult[i].NoOfRooms}\n`
+                            const content = `Blocket RO: ${data.data.user.publishedHomes[j].location.route} and SquareMeter: ${data.data.user.publishedHomes[j].squareMeters} and rooms Count: ${data.data.user.publishedHomes[j].roomCount}\n`
+                            cy.writeFile("matchProperties.txt", content + samtryggContents,  {flag:'a+'})
                             cy.wait(3000)
-                            break
+                            cy.log('------------------------------')
+                            
                         } 
-                        // if(data1.data.user.publishedHomes[i].squareMeters != data.SearchResult[j].SquareMeters && data1.data.user.publishedHomes[i].location.route != data.SearchResult[j].StreetName && data1.data.user.publishedHomes[i].roomCount != data.SearchResult[j].NoOfRooms){
-                        // //     // cy.fail('Rental object is not found')
-                        // //     // expect(`${data.SearchResult[j].SquareMeters}`).to.not.contain(`${data1.data.user.publishedHomes[i].squareMeters}`)
-                        //     expect(data.SearchResult[j].StreetName).to.not.contain(data1.data.user.publishedHomes[i].location.route)
+                        else if(data.data.user.publishedHomes[j].location.route == data1.SearchResult[i].StreetName  && data.data.user.publishedHomes[j].squareMeters != data1.SearchResult[i].SquareMeters && data.data.user.publishedHomes[j].roomCount != data1.SearchResult[i].NoOfRooms){
+                        // if(data.data.user.publishedHomes[j].squareMeters != data1.SearchResult[i].SquareMeters && data.data.user.publishedHomes[j].location.route != data1.SearchResult[i].StreetName && data.data.user.publishedHomes[j].roomCount != data1.SearchResult[i].NoOfRooms){
+                        //     // cy.fail('Rental object is not found')
+                        const samContents = `Samtrygg RO: ${data1.SearchResult[i].StreetName} and SquareMeter: ${data1.SearchResult[i].SquareMeters } and rooms Count: ${data1.SearchResult[i].NoOfRooms}\n`
+                            const fileContent = `Blocket RO: ${data.data.user.publishedHomes[j].location.route} and SquareMeter: ${data.data.user.publishedHomes[j].squareMeters} and rooms Count: ${data.data.user.publishedHomes[j].roomCount}\n`
+                            cy.writeFile("properties.txt", `${fileContent} \n${samContents}`, {flag:'a+'})
+                            cy.wait(1000)
+                            cy.log('------------------------------')
+
+                        //     // expect(`${data.SearchResult[j].SquareMeters}`).to.not.contain(`${data1.data.user.publishedHomes[i].squareMeters}`)
+                            // expect(data.SearchResult[j].StreetName).to.not.contain(data1.data.user.publishedHomes[i].location.route)
                         // //     // expect(`${data.SearchResult[j].NoOfRooms}`).to.not.contain(`${data1.data.user.publishedHomes[i].roomCount}`)
+                        }
                     }
                     cy.wait(1000)
                 })
             }
         })
     })
-    it('test 2', () => {
+    it.only('test 2', () => {
         cy.readFile('SearchResult copy.json').then(data => {
             for(let j = 0; j < data.SearchResult.length; j++) {
                 cy.readFile('data.json').then(data1 => {
                     for(let i = 0; i < data1.data.user.publishedHomes.length; i++) {
                         // cy.log(data1.data.user.publishedHomes[i].squareMeters, data1.data.user.publishedHomes[i].location.route)
                         if(data.SearchResult[j].SquareMeters == data1.data.user.publishedHomes[i].squareMeters && data.SearchResult[j].StreetName == data1.data.user.publishedHomes[i].location.route && data.SearchResult[j].NoOfRooms == data1.data.user.publishedHomes[i].roomCount ){
+                            
+                            // const content = ''
+                            const samtryggContents = `Samtrygg RO: ${data.SearchResult[j].StreetName}  and SquareMeter: ${data.SearchResult[j].SquareMeters } and rooms Count: ${data.SearchResult[j].NoOfRooms}\n`
+                            const content = `Blocket RO: ${data1.data.user.publishedHomes[i].location.route} and SquareMeter: ${data1.data.user.publishedHomes[i].squareMeters} and rooms Count: ${data1.data.user.publishedHomes[i].roomCount}\n`
+                            cy.writeFile("matchProperties.txt", content + samtryggContents+ '\n',  {flag:'a+'})
                             expect(data1.data.user.publishedHomes[i].squareMeters).to.equal(data.SearchResult[j].SquareMeters),
                             expect(data1.data.user.publishedHomes[i].location.route).to.equal(data.SearchResult[j].StreetName),
                             expect(data1.data.user.publishedHomes[i].roomCount).to.equal(data.SearchResult[j].NoOfRooms)
                             cy.wait(3000)
-                            break
+                            cy.log('------------------------------')
                         } 
-                        // if(data1.data.user.publishedHomes[i].squareMeters != data.SearchResult[j].SquareMeters && data1.data.user.publishedHomes[i].location.route != data.SearchResult[j].StreetName && data1.data.user.publishedHomes[i].roomCount != data.SearchResult[j].NoOfRooms){
-                        // //     // cy.fail('Rental object is not found')
-                        // expect(`${data.SearchResult[j].SquareMeters}`).to.not.contain(`${data1.data.user.publishedHomes[i].squareMeters}`)
-                        // expect(data.SearchResult[j].StreetName).to.not.contain(data1.data.user.publishedHomes[i].location.route)
-                        // expect(`${data.SearchResult[j].NoOfRooms}`).to.not.contain(`${data1.data.user.publishedHomes[i].roomCount}`)
+                        else if(data1.data.user.publishedHomes[i].location.route == data.SearchResult[j].StreetName  && data1.data.user.publishedHomes[i].squareMeters != data.SearchResult[j].SquareMeters && data1.data.user.publishedHomes[i].roomCount != data.SearchResult[j].NoOfRooms){
+                            //     // cy.fail('Rental object is not found')
+                                const samContents = `Samtrygg RO: ${data.SearchResult[j].StreetName} and SquareMeter: ${data.SearchResult[j].SquareMeters } and rooms Count: ${data.SearchResult[j].NoOfRooms}\n`
+                                const fileContent = `Blocket RO: ${data1.data.user.publishedHomes[i].location.route} and SquareMeter: ${data1.data.user.publishedHomes[i].squareMeters} and rooms Count: ${data1.data.user.publishedHomes[i].roomCount}\n`
+                                cy.writeFile("properties.txt", `${fileContent} ${samContents}\n`, {flag:'a+'})
+                                cy.wait(1000)
+                                cy.log('------------------------------')
+    
+                            //     // expect(`${data.SearchResult[j].SquareMeters}`).to.not.contain(`${data1.data.user.publishedHomes[i].squareMeters}`)
+                                // expect(data.SearchResult[j].StreetName).to.not.contain(data1.data.user.publishedHomes[i].location.route)
+                            // //     // expect(`${data.SearchResult[j].NoOfRooms}`).to.not.contain(`${data1.data.user.publishedHomes[i].roomCount}`)
+                            }
+                            // else if(data1.data.user.publishedHomes[i].location.route != data.SearchResult[j].StreetName  && data1.data.user.publishedHomes[i].squareMeters != data.SearchResult[j].SquareMeters && data1.data.user.publishedHomes[i].roomCount != data.SearchResult[j].NoOfRooms) 
+                            // else {
+                            //     const samNotFoundROs = `Samtrygg RO: ${data.SearchResult[j].StreetName} and SquareMeter: ${data.SearchResult[j].SquareMeters } and rooms Count: ${data.SearchResult[j].NoOfRooms}\n`
+                            //     const BlocketNotFoundROs = `Blocket RO: ${data1.data.user.publishedHomes[i].location.route} and SquareMeter: ${data1.data.user.publishedHomes[i].squareMeters} and rooms Count: ${data1.data.user.publishedHomes[i].roomCount}\n`
+                            //     cy.writeFile("UnMatchedProperties.txt", `${BlocketNotFoundROs} ${samNotFoundROs}\n`, {flag:'a+'})
+                            //     cy.wait(1000)
+                            //     cy.log('------------------------------')
+                            // }
                     }
                     cy.wait(1000)
                 })
@@ -81,7 +113,7 @@ describe('street automate', () => {
                             break
                         } 
                         // if(data1.data.user.publishedHomes[i].squareMeters != data.SearchResult[j].SquareMeters && data1.data.user.publishedHomes[i].location.route != data.SearchResult[j].StreetName && data1.data.user.publishedHomes[i].roomCount != data.SearchResult[j].NoOfRooms){
-                        // //     // cy.fail('Rental object is not found')
+                        // cy.fail('Rental object is not found')
                         // expect(`${data.SearchResult[j].SquareMeters}`).to.not.contain(`${data1.data.user.publishedHomes[i].squareMeters}`)
                         // expect(data.SearchResult[j].StreetName).to.not.contain(data1.data.user.publishedHomes[i].location.route)
                         // expect(`${data.SearchResult[j].NoOfRooms}`).to.not.contain(`${data1.data.user.publishedHomes[i].roomCount}`)
